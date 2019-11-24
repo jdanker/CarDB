@@ -1,0 +1,59 @@
+body {
+    font-family:Arial;
+    background:rgb(152, 116, 235);
+}
+
+#car-forms {
+    display:flex;
+    justify-content: space-between;
+}
+
+.car-form {
+    background:lightgray;
+    margin:auto 10px;
+    padding:10px;
+    border-radius:3px;
+    flex-basis:45%;
+}
+
+.car-form label {
+    display:block;
+}
+
+.car-form input, .car-form textarea {
+    width:300px;
+}
+
+.car {
+    background:lightslategray;
+    padding:10px;
+    margin:10px;
+    border-radius:3px;
+}
+
+.error {
+    background:lightcoral;
+    color:darkRed;
+}
+
+.success {
+    background:lightgreen;
+    color:darkGreen;
+}
+
+.hidden {
+    display:none;
+}
+
+h1 {
+    text-align:center;
+}
+
+a {
+    color:black;
+}
+
+.car-heading {
+    display:flex;
+    justify-content:space-between;
+}

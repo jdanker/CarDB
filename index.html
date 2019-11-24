@@ -5,6 +5,70 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <h1>List of Cars</h1>
+
+        <div id="cars"></div>
+
+        <div id="car-forms">
+            <div id="add-car-form" class="car-form">
+                <h2>Adding Cars</h2>
+                <p>
+                    <label for="txt-add-car-make">Make:</label>
+                    <input type="text" id="txt-add-car-make">
+                </p>
+                <p>
+                    <label for="txt-add-car-model">Model:</label>
+                    <input type="text" id="txt-add-car-model">
+                </p>
+                <p>
+                    <label for="txt-add-car-hp">HP:</label>                            
+                    <input type="text" id="txt-add-car-hp">
+                </p>
+                <p>
+                    <label for="txt-add-car-price">Price:</label>
+                    <input type="text" id="txt-add-car-price">
+                </p>
+                <p>
+                    <label for="txt-add-car-trims">Trims:</label>
+                    <textarea rows="5" id="txt-add-car-trims"></textarea>
+                </p>
+                <p>
+                    <label for="txt-add-car-truck">Truck?:</label>
+                    <input type="text" id="txt-add-car-truck">
+                </p>
+                <button id="btn-add-car">Add car</button>
+                <p id="add-feedback" class="hidden"></p>
+            </div>    
+            <div id="edit-car-form" class="car-form">
+               <h2>Edit a Car</h2>
+               <span id="edit-car-id" class="hidden"></span>
+                <p>
+                    <label for="txt-edit-car-make">Make:</label>
+                    <input type="text" id="txt-edit-car-make">
+                </p>
+                <p>
+                    <label for="txt-edit-car-model">Model:</label>
+                    <input type="text" id="txt-edit-car-model">
+                </p>
+                 <p>
+                     <label for="txt-edit-car-hp">HP:</label>                            
+                     <input type="text" id="txt-edit-car-hp">
+                </p>
+                <p>
+                    <label for="txt-edit-car-price">Price:</label>
+                    <input type="text" id="txt-edit-car-price">
+                </p>
+                <p>
+                    <label for="txt-edit-car-trims">Trims:</label>
+                    <textarea rows="5" id="txt-edit-car-trims"></textarea>
+                </p>
+                <p>
+                    <label for="txt-edit-car-truck">Truck?:</label>
+                    <input type="text" id="txt-edit-car-truck">
+                </p>
+                <button id="btn-edit-car">Edit Car</button>
+                <p id="edit-feedback" class="hidden"></p>
+            </div>
+        </div>
     </body>
 </html>
